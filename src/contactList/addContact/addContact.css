@@ -1,0 +1,29 @@
+p {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin-top: 20px;
+}
+
+.input {
+    margin-top: 20px;
+    /* padding: 5px 40px; */
+    width: 250px;
+    height: 30px;
+    outline: none;
+    background-color: cadetblue;
+    box-shadow: 4px 5px 3px teal;
+}
+::placeholder {
+    color: rgba(63, 24, 2, 0.699);
+    font-weight: bold;
+    font-size: 14px;
+}
+.btnAdd {
+    margin-top: 5%;
+    padding: 5px 15px;
+    background-color: brown;
+    font-weight: 500;
+    font-size: 0.9em;
+}
